@@ -1,19 +1,19 @@
-# Task 1 - EDA on Retail Sales Data
+# Task 2 - Cleaning Data
 
 ## Objective
-Performed Exploratory Data Analysis on a retail sales dataset to uncover patterns in sales trends, customer demographics, and product performance.
+Took a messy real-world dataset (Titanic) and cleaned it systematically, documenting every decision.
 
 ## Tech Stack
-Python, Pandas, Matplotlib, Seaborn, Jupyter Notebook
+Python, Pandas, NumPy, Jupyter Notebook
 
 ## Key Steps
-- Data inspection and descriptive statistics
-- Monthly and quarterly sales trend analysis
-- Customer demographics (age group, gender) analysis
-- Product category performance analysis
-- Correlation heatmap
-- Business recommendations based on findings
+- Data quality report (nulls, duplicates, dtype issues)
+- Missing value handling (median/mode imputation)
+- Outlier detection using IQR method
+- Data type correction
+- Before vs after cleaning summary
 
 ## Files
-- `Task1_EDA_Retail_Sales.ipynb` - Main notebook
-- `retail_sales_dataset.csv` - Dataset used
+- `Task2_Data_Cleaning.ipynb` - Main notebook
+- `titanic_raw_dataset.csv` - Original dataset
+- `titanic_cleaned_dataset.csv` - Cleaned output
